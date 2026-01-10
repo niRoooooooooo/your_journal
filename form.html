@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastry shop</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="icon" href="image/Bakery-logo-on-transparent-background-PNG.png">
+</head>
+<body>
+    <header>
+        <h1>The pastry shop</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <fieldset class="basic">
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" name=""><br>
+
+                     <label for="email">email</label>
+                     <input type="email" id="email" name=""><br><br>
+                
+                     <label for="number">Phone number:</label>
+                     <input type="number" id="number" name=""><br><br>
+                </fieldset>
+
+                <fieldset class="pastries">
+                    <legend>Select your favorite pastry:</legend><br>
+                    
+                    <input type="radio" id="cake" name="pastry" value="cake">
+                    <label for="cake">Cake</label><br>
+
+                    <input type="radio" id="cookie" name="pastry" value="cookie">
+                    <label for="cookie">Cookie</label><br>
+                    
+                    <input type="radio" id="pie" name="pastry" value="pie">
+                    <label for="pie">Pie</label><br>
+                    <br>
+                </fieldset>
+                <fieldset class="pay">
+                    <legend>Select payment</legend><br>
+                    
+                    <input type="checkbox" id="homeDelivery" name="delivery" value="homeDelivery">
+                    <label for="homeDelivery">Home Delivery</label><br>
+
+                    <input type="checkbox" id="storePickup" name="delivery" value="storePickup">
+                    <label for="storePickup">Store Pickup</label><br>
+                </fieldset>
+                <fieldset class="info">
+                    <legend>Additional comments:</legend><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+                </fieldset>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Click Me!</button>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.header{
+    background-color: brown;
+    background-image: url(images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20PX;
+    box-shadow: 20px;
+
+}
+
+.nora{
+    border: 10px dashed black;
+    border-radius: 20px;
+    background-color: brown;
+    padding: 10px;
+    margin: 20PX;
+    box-shadow: -4px -6px grey;
+    color: azure;
+    font-weight: bolder;
+}
+
+.hed{
+    border: 10px dashed black;
+    border-radius: 20px;
+    background-color: rgb(209, 199, 199);
+    background-image: url(images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20PX;
+    box-shadow: 20px;
+
+}

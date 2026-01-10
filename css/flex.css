@@ -1,0 +1,16 @@
+.container, .container2, .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px;
+    color: brown;
+    justify-content: space-around;
+}
+.user, .item, .box {
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightsalmon;
+    box-shadow: 20px 20px 30px grey;
+}
