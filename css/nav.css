@@ -1,0 +1,38 @@
+nav ul li{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    display: block ;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 40px;
+
+}
+
+nav ul li a:hover{
+    color: blue;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 50px grey;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}

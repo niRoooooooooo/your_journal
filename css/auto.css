@@ -1,0 +1,16 @@
+.contain{
+            background-color: lightgreen;
+            padding: 5px;
+            border-radius: 20px;
+            margin-top: 2px;
+}
+
+.box{
+            background-color: lightblue;
+            border-radius: 10px;
+            font-size: large;
+            max-width: 1100px;
+            margin: 0 auto; /* horizontal centering using 0 auto*/
+            padding: 20px;
+            text-align: center;
+}
