@@ -1,0 +1,48 @@
+.hero-banner{
+    display : flex;
+    background-color: aqua;
+    align-items: center;
+    margin-top: 2px;
+    border-radius: 20px;
+}
+.hero-content{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: lime;
+}
+
+.hero-banner img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+}
+.second{
+    padding: 5px;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+.tag{
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: grey;
+    color: black;
+    box-shadow: 5px 5px 50px grey;
+}
